@@ -1,0 +1,23 @@
+[0.016s] Invoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs -- -j16 -l16
+[0.066s] [  2%] Built target conveyorbelt_msgs__cpp
+[0.067s] [ 12%] Built target conveyorbelt_msgs__rosidl_generator_c
+[0.075s] [ 12%] Built target ament_cmake_python_symlink_conveyorbelt_msgs
+[0.090s] [ 23%] Built target conveyorbelt_msgs__rosidl_typesupport_c
+[0.090s] [ 43%] Built target conveyorbelt_msgs__rosidl_typesupport_cpp
+[0.091s] [ 43%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_c
+[0.092s] [ 64%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_c
+[0.092s] [ 64%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp
+[0.093s] [ 74%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_cpp
+[0.114s] [ 74%] Built target conveyorbelt_msgs
+[0.135s] [ 76%] Built target conveyorbelt_msgs__py
+[0.161s] [ 84%] Built target conveyorbelt_msgs__rosidl_generator_py
+[0.183s] [ 94%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.183s] [ 94%] Built target conveyorbelt_msgs__rosidl_typesupport_c__pyext
+[0.183s] [100%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext
+[0.320s] running egg_info
+[0.346s] writing conveyorbelt_msgs.egg-info/PKG-INFO
+[0.346s] writing dependency_links to conveyorbelt_msgs.egg-info/dependency_links.txt
+[0.346s] writing top-level names to conveyorbelt_msgs.egg-info/top_level.txt
+[0.416s] reading manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'
+[0.418s] writing manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'
+[0.443s] [100%] Built target ament_cmake_python_build_conveyorbelt_msgs_egg

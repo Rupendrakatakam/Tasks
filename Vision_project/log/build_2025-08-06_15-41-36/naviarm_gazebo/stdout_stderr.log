@@ -1,0 +1,16 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/launch/gazebo.launch.py
+-- Up-to-date symlink: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/_.world
+-- Up-to-date symlink: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/alan_warehouse.world
+-- Up-to-date symlink: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/alan_warehouse_2.world
+-- Up-to-date symlink: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/w_warehouse.world
+-- Up-to-date symlink: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/warehouse.world
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_gazebo/models'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

@@ -1,0 +1,2 @@
+[console_scripts]
+box_detector = vision_box_detector.box_detector:main

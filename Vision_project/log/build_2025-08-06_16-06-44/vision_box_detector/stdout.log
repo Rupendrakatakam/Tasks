@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/vision_box_detector/vision_box_detector.egg-info
+writing ../../build/vision_box_detector/vision_box_detector.egg-info/PKG-INFO
+writing dependency_links to ../../build/vision_box_detector/vision_box_detector.egg-info/dependency_links.txt
+writing entry points to ../../build/vision_box_detector/vision_box_detector.egg-info/entry_points.txt
+writing requirements to ../../build/vision_box_detector/vision_box_detector.egg-info/requires.txt
+writing top-level names to ../../build/vision_box_detector/vision_box_detector.egg-info/top_level.txt
+writing manifest file '../../build/vision_box_detector/vision_box_detector.egg-info/SOURCES.txt'
+reading manifest file '../../build/vision_box_detector/vision_box_detector.egg-info/SOURCES.txt'
+writing manifest file '../../build/vision_box_detector/vision_box_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/build/lib/vision_box_detector
+copying vision_box_detector/__init__.py -> /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/build/lib/vision_box_detector
+copying vision_box_detector/box_detector.py -> /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/build/lib/vision_box_detector
+running install
+running install_lib
+creating /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages/vision_box_detector
+copying /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/build/lib/vision_box_detector/__init__.py -> /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages/vision_box_detector
+copying /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/build/lib/vision_box_detector/box_detector.py -> /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages/vision_box_detector
+byte-compiling /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages/vision_box_detector/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages/vision_box_detector/box_detector.py to box_detector.cpython-310.pyc
+running install_data
+creating /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/share/ament_index/resource_index/packages
+copying resource/vision_box_detector -> /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/share/ament_index/resource_index/packages
+copying package.xml -> /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/share/vision_box_detector
+running install_egg_info
+Copying ../../build/vision_box_detector/vision_box_detector.egg-info to /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages/vision_box_detector-0.0.1-py3.10.egg-info
+running install_scripts
+Installing box_detector script to /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/vision_box_detector
+writing list of installed files to '/home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/install.log'

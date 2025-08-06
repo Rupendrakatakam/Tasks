@@ -1,0 +1,64 @@
+[0.020s] Invoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.133s] -- The CXX compiler identification is GNU 11.4.0
+[0.140s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.214s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.215s] -- Detecting C compile features
+[0.215s] -- Detecting C compile features - done
+[0.218s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.299s] -- Detecting CXX compile features
+[0.300s] -- Detecting CXX compile features - done
+[0.302s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.683s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.744s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.766s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.856s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.856s] -- Added test 'lint_cmake' to check CMake code style
+[0.857s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.858s] -- Added test 'xmllint' to check XML markup files
+[0.861s] -- Configuring done
+[0.863s] -- Generating done
+[0.864s] -- Build files have been written to: /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo
+[0.868s] Invoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo
+[0.870s] Invoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo -- -j16 -l16
+[0.909s] Invoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo -- -j16 -l16
+[0.910s] Invoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo
+[0.918s] -- Install configuration: ""
+[0.918s] -- Execute custom install script
+[0.919s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/launch/gazebo.launch.py
+[0.927s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/_.world
+[0.936s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/alan_warehouse.world
+[0.945s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/alan_warehouse_2.world
+[0.955s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/cafe.world
+[0.964s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/cafe_warehouse.world
+[0.973s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/empty.world
+[0.982s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/gazebo_world.world
+[0.991s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/seat.world
+[1.000s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/seat_row.world
+[1.010s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/tejas.world
+[1.019s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/tejas_1.world
+[1.028s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/train.world
+[1.037s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/train2.world
+[1.048s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/train3.world
+[1.060s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/train_final.world
+[1.071s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/w_warehouse.world
+[1.081s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/warehouse.world
+[1.091s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/ament_index/resource_index/package_run_dependencies/naviarm_gazebo
+[1.102s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/ament_index/resource_index/parent_prefix_path/naviarm_gazebo
+[1.112s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/environment/ament_prefix_path.sh
+[1.121s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/environment/ament_prefix_path.dsv
+[1.131s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/environment/path.sh
+[1.140s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/environment/path.dsv
+[1.150s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/local_setup.bash
+[1.159s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/local_setup.sh
+[1.169s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/local_setup.zsh
+[1.178s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/local_setup.dsv
+[1.187s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/package.dsv
+[1.196s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/ament_index/resource_index/packages/naviarm_gazebo
+[1.207s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/cmake/naviarm_gazeboConfig.cmake
+[1.216s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/cmake/naviarm_gazeboConfig-version.cmake
+[1.226s] -- Symlinking: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/package.xml
+[1.239s] Invoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo

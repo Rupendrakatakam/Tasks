@@ -1,0 +1,21 @@
+{
+  "package_name": "conveyorbelt_msgs",
+  "output_dir": "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_typesupport_fastrtps_c/conveyorbelt_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs:msg/ConveyorBeltState.idl",
+    "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs:srv/ConveyorBeltControl.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs/msg/ConveyorBeltState.idl",
+    "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs/srv/ConveyorBeltControl.idl"
+  ]
+}

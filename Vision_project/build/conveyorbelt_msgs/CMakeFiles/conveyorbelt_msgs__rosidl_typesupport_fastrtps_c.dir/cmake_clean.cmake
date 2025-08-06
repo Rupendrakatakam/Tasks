@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support_c.cpp.o"
+  "CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support_c.cpp.o.d"
+  "CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support_c.cpp.o"
+  "CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support_c.cpp.o.d"
+  "libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.pdb"
+  "libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

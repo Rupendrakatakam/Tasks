@@ -1,0 +1,20 @@
+[0.016s] Invoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo -- -j16 -l16
+[0.062s] Invoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo -- -j16 -l16
+[0.063s] Invoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo
+[0.069s] -- Install configuration: ""
+[0.070s] -- Execute custom install script
+[0.071s] -- Up-to-date symlink: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/launch/gazebo.launch.py
+[0.071s] -- Up-to-date symlink: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/_.world
+[0.072s] -- Up-to-date symlink: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/alan_warehouse.world
+[0.072s] -- Up-to-date symlink: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/alan_warehouse_2.world
+[0.072s] -- Up-to-date symlink: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/w_warehouse.world
+[0.073s] -- Up-to-date symlink: /home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/worlds/warehouse.world
+[0.073s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.073s]   ament_cmake_symlink_install_directory() can't find
+[0.073s]   '/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_gazebo/models'
+[0.074s] Call Stack (most recent call first):
+[0.074s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.074s]   cmake_install.cmake:46 (include)
+[0.074s] 
+[0.074s] [0m
+[0.077s] Invoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo

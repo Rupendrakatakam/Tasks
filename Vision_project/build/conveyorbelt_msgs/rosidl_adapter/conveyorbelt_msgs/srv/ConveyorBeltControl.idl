@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from conveyorbelt_msgs/srv/ConveyorBeltControl.srv
+// generated code does not contain a copyright notice
+
+
+module conveyorbelt_msgs {
+  module srv {
+    struct ConveyorBeltControl_Request {
+      @verbatim (language="comment", text=
+        "Desired conveyor bolt POWER.")
+      double power;
+    };
+    struct ConveyorBeltControl_Response {
+      @verbatim (language="comment", text=
+        "RESULT: SUCCESS message.")
+      boolean success;
+    };
+  };
+};

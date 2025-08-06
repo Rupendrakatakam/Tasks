@@ -1,0 +1,33 @@
+[0.770s] Invoking command in '/home/rupendra/Desktop/Tasks/Vision_project/src/vision_box_detector': CMAKE_PREFIX_PATH=/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs:/home/rupendra/Desktop/Tasks/Vision_project/src/install/naviarm_gazebo:/home/rupendra/Desktop/Tasks/Vision_project/src/install/naviarm_bringup:/home/rupendra/Desktop/Tasks/Vision_project/src/install/conveyorbelt_msgs:/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo:/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup LD_LIBRARY_PATH=/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib:/home/rupendra/Desktop/Tasks/Vision_project/src/install/conveyorbelt_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vision_box_detector build --build-base /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/build install --record /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/install.log --single-version-externally-managed install_data
+[1.061s] running egg_info
+[1.083s] creating ../../build/vision_box_detector/vision_box_detector.egg-info
+[1.084s] writing ../../build/vision_box_detector/vision_box_detector.egg-info/PKG-INFO
+[1.084s] writing dependency_links to ../../build/vision_box_detector/vision_box_detector.egg-info/dependency_links.txt
+[1.084s] writing entry points to ../../build/vision_box_detector/vision_box_detector.egg-info/entry_points.txt
+[1.084s] writing requirements to ../../build/vision_box_detector/vision_box_detector.egg-info/requires.txt
+[1.084s] writing top-level names to ../../build/vision_box_detector/vision_box_detector.egg-info/top_level.txt
+[1.084s] writing manifest file '../../build/vision_box_detector/vision_box_detector.egg-info/SOURCES.txt'
+[1.133s] reading manifest file '../../build/vision_box_detector/vision_box_detector.egg-info/SOURCES.txt'
+[1.134s] writing manifest file '../../build/vision_box_detector/vision_box_detector.egg-info/SOURCES.txt'
+[1.134s] running build
+[1.135s] running build_py
+[1.135s] creating /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/build/lib/vision_box_detector
+[1.135s] copying vision_box_detector/__init__.py -> /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/build/lib/vision_box_detector
+[1.135s] copying vision_box_detector/box_detector.py -> /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/build/lib/vision_box_detector
+[1.135s] running install
+[1.139s] running install_lib
+[1.163s] creating /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages/vision_box_detector
+[1.163s] copying /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/build/lib/vision_box_detector/__init__.py -> /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages/vision_box_detector
+[1.163s] copying /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/build/lib/vision_box_detector/box_detector.py -> /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages/vision_box_detector
+[1.163s] byte-compiling /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages/vision_box_detector/__init__.py to __init__.cpython-310.pyc
+[1.163s] byte-compiling /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages/vision_box_detector/box_detector.py to box_detector.cpython-310.pyc
+[1.164s] running install_data
+[1.164s] creating /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/share/ament_index/resource_index/packages
+[1.165s] copying resource/vision_box_detector -> /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/share/ament_index/resource_index/packages
+[1.165s] copying package.xml -> /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/share/vision_box_detector
+[1.165s] running install_egg_info
+[1.190s] Copying ../../build/vision_box_detector/vision_box_detector.egg-info to /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages/vision_box_detector-0.0.1-py3.10.egg-info
+[1.191s] running install_scripts
+[1.240s] Installing box_detector script to /home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/vision_box_detector
+[1.241s] writing list of installed files to '/home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/install.log'
+[1.269s] Invoked command in '/home/rupendra/Desktop/Tasks/Vision_project/src/vision_box_detector' returned '0': CMAKE_PREFIX_PATH=/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs:/home/rupendra/Desktop/Tasks/Vision_project/src/install/naviarm_gazebo:/home/rupendra/Desktop/Tasks/Vision_project/src/install/naviarm_bringup:/home/rupendra/Desktop/Tasks/Vision_project/src/install/conveyorbelt_msgs:/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo:/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup LD_LIBRARY_PATH=/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib:/home/rupendra/Desktop/Tasks/Vision_project/src/install/conveyorbelt_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rupendra/Desktop/Tasks/Vision_project/install/vision_box_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vision_box_detector build --build-base /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/build install --record /home/rupendra/Desktop/Tasks/Vision_project/build/vision_box_detector/install.log --single-version-externally-managed install_data
