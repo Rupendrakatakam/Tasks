@@ -3,6 +3,7 @@ setup.cfg
 setup.py
 bottle_detection/__init__.py
 bottle_detection/bottle_detector.py
+bottle_detection/database.py
 bottle_detection.egg-info/PKG-INFO
 bottle_detection.egg-info/SOURCES.txt
 bottle_detection.egg-info/dependency_links.txt

@@ -1,0 +1,17 @@
+[0.660s] Invoking command in '/home/humble/Desktop/Tasks/Vision_project/build/item_spawner': PYTHONPATH=/home/humble/Desktop/Tasks/Vision_project/build/item_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/humble/Desktop/Tasks/Vision_project/install/item_spawner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/humble/Desktop/Tasks/Vision_project/build/item_spawner/build --no-deps symlink_data
+[0.823s] running develop
+[0.915s] running egg_info
+[0.915s] writing item_spawner.egg-info/PKG-INFO
+[0.915s] writing dependency_links to item_spawner.egg-info/dependency_links.txt
+[0.915s] writing entry points to item_spawner.egg-info/entry_points.txt
+[0.915s] writing requirements to item_spawner.egg-info/requires.txt
+[0.916s] writing top-level names to item_spawner.egg-info/top_level.txt
+[0.917s] reading manifest file 'item_spawner.egg-info/SOURCES.txt'
+[0.918s] writing manifest file 'item_spawner.egg-info/SOURCES.txt'
+[0.919s] running build_ext
+[0.919s] Creating /home/humble/Desktop/Tasks/Vision_project/install/item_spawner/lib/python3.10/site-packages/item-spawner.egg-link (link to .)
+[0.919s] Installing spawner_node script to /home/humble/Desktop/Tasks/Vision_project/install/item_spawner/lib/item_spawner
+[0.920s] 
+[0.920s] Installed /home/humble/Desktop/Tasks/Vision_project/build/item_spawner
+[0.920s] running symlink_data
+[0.949s] Invoked command in '/home/humble/Desktop/Tasks/Vision_project/build/item_spawner' returned '0': PYTHONPATH=/home/humble/Desktop/Tasks/Vision_project/build/item_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/humble/Desktop/Tasks/Vision_project/install/item_spawner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/humble/Desktop/Tasks/Vision_project/build/item_spawner/build --no-deps symlink_data

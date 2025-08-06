@@ -1,1 +1,1 @@
-cv_bridge:numpy:opencv-python:rclpy:sensor_msgs:ultralytics
+cv_bridge:numpy:opencv-python:rclpy:sensor_msgs:sqlite3:ultralytics

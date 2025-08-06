@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing item_spawner.egg-info/PKG-INFO
+writing dependency_links to item_spawner.egg-info/dependency_links.txt
+writing entry points to item_spawner.egg-info/entry_points.txt
+writing requirements to item_spawner.egg-info/requires.txt
+writing top-level names to item_spawner.egg-info/top_level.txt
+reading manifest file 'item_spawner.egg-info/SOURCES.txt'
+writing manifest file 'item_spawner.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/humble/Desktop/Tasks/Vision_project/install/item_spawner/lib/python3.10/site-packages/item-spawner.egg-link (link to .)
+Installing spawner_node script to /home/humble/Desktop/Tasks/Vision_project/install/item_spawner/lib/item_spawner
+
+Installed /home/humble/Desktop/Tasks/Vision_project/build/item_spawner
+running symlink_data
