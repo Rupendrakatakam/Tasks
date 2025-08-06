@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+item_spawner/__init__.py
+item_spawner/spawner_node.py
+item_spawner.egg-info/PKG-INFO
+item_spawner.egg-info/SOURCES.txt
+item_spawner.egg-info/dependency_links.txt
+item_spawner.egg-info/entry_points.txt
+item_spawner.egg-info/requires.txt
+item_spawner.egg-info/top_level.txt
+item_spawner.egg-info/zip-safe
+resource/item_spawner

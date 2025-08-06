@@ -1,0 +1,235 @@
+[0.008s] Invoking command in '/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/humble/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.085s] -- The CXX compiler identification is GNU 11.4.0
+[0.090s] -- Detecting C compiler ABI info
+[0.140s] -- Detecting C compiler ABI info - done
+[0.145s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.145s] -- Detecting C compile features
+[0.145s] -- Detecting C compile features - done
+[0.147s] -- Detecting CXX compiler ABI info
+[0.201s] -- Detecting CXX compiler ABI info - done
+[0.207s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.208s] -- Detecting CXX compile features
+[0.208s] -- Detecting CXX compile features - done
+[0.210s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.318s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.360s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.378s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.431s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.432s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.436s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.613s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.740s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.901s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.918s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.919s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.936s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.936s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.936s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.936s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.949s] -- Found PythonExtra: .so  
+[0.974s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.975s] -- Added test 'lint_cmake' to check CMake code style
+[0.976s] -- Added test 'xmllint' to check XML markup files
+[0.978s] -- Configuring done
+[0.995s] -- Generating done
+[1.001s] -- Build files have been written to: /home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs
+[1.004s] Invoked command in '/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/humble/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs
+[1.006s] Invoking command in '/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs -- -j12 -l12
+[1.035s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.045s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.047s] [  5%] Built target ament_cmake_python_symlink_conveyorbelt_msgs
+[1.191s] running egg_info
+[1.191s] creating conveyorbelt_msgs.egg-info
+[1.191s] writing conveyorbelt_msgs.egg-info/PKG-INFO
+[1.191s] writing dependency_links to conveyorbelt_msgs.egg-info/dependency_links.txt
+[1.191s] writing top-level names to conveyorbelt_msgs.egg-info/top_level.txt
+[1.192s] writing manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'
+[1.193s] reading manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'
+[1.193s] writing manifest file 'conveyorbelt_msgs.egg-info/SOURCES.txt'
+[1.215s] [  5%] Built target ament_cmake_python_build_conveyorbelt_msgs_egg
+[1.271s] [  5%] Built target conveyorbelt_msgs__cpp
+[1.271s] [  7%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_c.dir/rosidl_generator_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__functions.c.o[0m
+[1.271s] [ 10%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_c.dir/rosidl_generator_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__functions.c.o[0m
+[1.277s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.279s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.279s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.327s] [ 20%] [32m[1mLinking C shared library libconveyorbelt_msgs__rosidl_generator_c.so[0m
+[1.358s] [ 20%] Built target conveyorbelt_msgs__rosidl_generator_c
+[1.366s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.367s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.368s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.504s] [ 30%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/conveyorbelt_msgs/msg/conveyor_belt_state__type_support.cpp.o[0m
+[1.507s] [ 33%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/conveyorbelt_msgs/srv/conveyor_belt_control__type_support.cpp.o[0m
+[1.534s] [ 35%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.cpp.o[0m
+[1.536s] [ 38%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.cpp.o[0m
+[1.600s] [ 43%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/conveyorbelt_msgs/srv/detail/dds_fastrtps/conveyor_belt_control__type_support.cpp.o[0m
+[1.600s] [ 43%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/conveyorbelt_msgs/msg/detail/dds_fastrtps/conveyor_belt_state__type_support.cpp.o[0m
+[1.620s] [ 46%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/conveyorbelt_msgs/srv/conveyor_belt_control__type_support.cpp.o[0m
+[1.622s] [ 48%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/conveyorbelt_msgs/msg/conveyor_belt_state__type_support.cpp.o[0m
+[1.654s] [ 51%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_c.so[0m
+[1.676s] [ 53%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.c.o[0m
+[1.676s] [ 56%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.c.o[0m
+[1.706s] [ 56%] Built target conveyorbelt_msgs__rosidl_typesupport_c
+[1.710s] [ 58%] [32m[1mLinking C shared library libconveyorbelt_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.750s] [ 58%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_c
+[1.753s] [ 61%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support_c.cpp.o[0m
+[1.755s] [ 64%] [32mBuilding CXX object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support_c.cpp.o[0m
+[1.838s] [ 66%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_cpp.so[0m
+[1.877s] [ 66%] Built target conveyorbelt_msgs__rosidl_typesupport_cpp
+[1.940s] [ 69%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.985s] [ 71%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.000s] [ 71%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp
+[2.015s] [ 71%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_cpp
+[2.037s] [ 74%] [32m[1mLinking CXX shared library libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.085s] [ 74%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_c
+[2.098s] [ 74%] Built target conveyorbelt_msgs
+[2.114s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.394s] [ 76%] Built target conveyorbelt_msgs__py
+[2.409s] [ 79%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_py.dir/rosidl_generator_py/conveyorbelt_msgs/msg/_conveyor_belt_state_s.c.o[0m
+[2.409s] [ 82%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_generator_py.dir/rosidl_generator_py/conveyorbelt_msgs/srv/_conveyor_belt_control_s.c.o[0m
+[2.488s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/libconveyorbelt_msgs__rosidl_generator_py.so[0m
+[2.517s] [ 84%] Built target conveyorbelt_msgs__rosidl_generator_py
+[2.531s] [ 87%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.532s] [ 89%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.532s] [ 92%] [32mBuilding C object CMakeFiles/conveyorbelt_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.590s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.591s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.598s] [100%] [32m[1mLinking C shared library rosidl_generator_py/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.616s] [100%] Built target conveyorbelt_msgs__rosidl_typesupport_c__pyext
+[2.620s] [100%] Built target conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext
+[2.624s] [100%] Built target conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.632s] Invoked command in '/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs -- -j12 -l12
+[2.634s] Invoking command in '/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs
+[2.639s] -- Install configuration: ""
+[2.639s] -- Execute custom install script
+[2.640s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg/ConveyorBeltState.msg
+[2.646s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl.srv
+[2.652s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/ament_index/resource_index/rosidl_interfaces/conveyorbelt_msgs
+[2.658s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/conveyor_belt_state.h
+[2.664s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__functions.h
+[2.669s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__struct.h
+[2.675s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.h
+[2.681s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.687s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/conveyor_belt_control.h
+[2.694s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__functions.h
+[2.699s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__struct.h
+[2.706s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.h
+[2.711s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/library_path.sh
+[2.717s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/library_path.dsv
+[2.723s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_fastrtps_c.h
+[2.730s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.734s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_fastrtps_c.h
+[2.741s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_introspection_c.h
+[2.746s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.752s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_introspection_c.h
+[2.757s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/conveyor_belt_state.hpp
+[2.763s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__builder.hpp
+[2.769s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__struct.hpp
+[2.775s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__traits.hpp
+[2.781s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__type_support.hpp
+[2.785s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.791s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/conveyor_belt_control.hpp
+[2.796s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__builder.hpp
+[2.802s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__struct.hpp
+[2.808s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__traits.hpp
+[2.813s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__type_support.hpp
+[2.820s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.825s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.831s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_fastrtps_cpp.hpp
+[2.836s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/msg/detail/conveyor_belt_state__rosidl_typesupport_introspection_cpp.hpp
+[2.841s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/include/conveyorbelt_msgs/conveyorbelt_msgs/srv/detail/conveyor_belt_control__rosidl_typesupport_introspection_cpp.hpp
+[2.847s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/pythonpath.sh
+[2.853s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/pythonpath.dsv
+[2.858s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.864s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.869s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.875s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.883s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/__init__.py
+[2.889s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_c.c
+[2.893s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.898s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/_conveyorbelt_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.905s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.911s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.917s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.923s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/libconveyorbelt_msgs__rosidl_generator_py.so
+[2.929s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/__init__.py
+[2.935s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/_conveyor_belt_state.py
+[2.940s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/_conveyor_belt_state_s.c
+[2.945s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/__init__.py
+[2.952s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/_conveyor_belt_control.py
+[2.959s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/_conveyor_belt_control_s.c
+[2.965s] -- Up-to-date symlink: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.965s] -- Up-to-date symlink: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.965s] -- Up-to-date symlink: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/conveyorbelt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.965s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg/ConveyorBeltState.idl
+[2.971s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl.idl
+[2.977s] -- Up-to-date symlink: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/msg/ConveyorBeltState.msg
+[2.977s] -- Up-to-date symlink: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl.srv
+[2.977s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl_Request.msg
+[2.983s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/srv/ConveyorBeltControl_Response.msg
+[2.990s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/ament_index/resource_index/package_run_dependencies/conveyorbelt_msgs
+[2.995s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/ament_index/resource_index/parent_prefix_path/conveyorbelt_msgs
+[3.001s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/ament_prefix_path.sh
+[3.007s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/ament_prefix_path.dsv
+[3.015s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/path.sh
+[3.021s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/environment/path.dsv
+[3.028s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.bash
+[3.035s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.sh
+[3.040s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.zsh
+[3.046s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/local_setup.dsv
+[3.052s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.dsv
+[3.058s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/ament_index/resource_index/packages/conveyorbelt_msgs
+[3.065s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/rosidl_cmake-extras.cmake
+[3.070s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.075s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.082s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.088s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.094s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.100s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.106s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgsConfig.cmake
+[3.114s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgsConfig-version.cmake
+[3.122s] -- Symlinking: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.xml
+[3.128s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_c.so
+[3.128s] -- Set runtime path of "/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_c.so" to ""
+[3.128s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.so
+[3.128s] -- Set runtime path of "/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.129s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_c.so
+[3.129s] -- Set runtime path of "/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.129s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_c.so
+[3.129s] -- Set runtime path of "/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_c.so" to ""
+[3.129s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.130s] -- Set runtime path of "/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.130s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_cpp.so
+[3.130s] -- Set runtime path of "/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.130s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_cpp.so
+[3.130s] -- Set runtime path of "/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_typesupport_cpp.so" to ""
+[3.162s] Listing '/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs'...
+[3.162s] Compiling '/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/__init__.py'...
+[3.162s] Listing '/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg'...
+[3.162s] Compiling '/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/__init__.py'...
+[3.162s] Compiling '/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/msg/_conveyor_belt_state.py'...
+[3.162s] Listing '/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv'...
+[3.162s] Compiling '/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/__init__.py'...
+[3.162s] Compiling '/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/local/lib/python3.10/dist-packages/conveyorbelt_msgs/srv/_conveyor_belt_control.py'...
+[3.165s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_py.so
+[3.165s] -- Set runtime path of "/home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/libconveyorbelt_msgs__rosidl_generator_py.so" to ""
+[3.165s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_cExport.cmake
+[3.165s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.165s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cExport.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_cppExport.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cppExport.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/conveyorbelt_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_pyExport.cmake
+[3.166s] -- Installing: /home/humble/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/cmake/export_conveyorbelt_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.168s] Invoked command in '/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs

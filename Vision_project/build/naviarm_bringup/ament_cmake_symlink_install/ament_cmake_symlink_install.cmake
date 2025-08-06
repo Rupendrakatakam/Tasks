@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/humble/Desktop/Tasks/Vision_project/install/naviarm_bringup/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/humble/Desktop/Tasks/Vision_project/install/naviarm_bringup/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/humble/Desktop/Tasks/Vision_project/install/naviarm_bringup/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/${destination}")
+      set(destination "/home/humble/Desktop/Tasks/Vision_project/install/naviarm_bringup/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "launch" "rviz" "DESTINATION" "share/naviarm_bringup")
-ament_cmake_symlink_install_directory("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" DIRECTORY "launch" "rviz" "DESTINATION" "share/naviarm_bringup")
+ament_cmake_symlink_install_directory("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" DIRECTORY "launch" "rviz" "DESTINATION" "share/naviarm_bringup")
 
-# install(FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/naviarm_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/naviarm_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/naviarm_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/naviarm_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/naviarm_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/naviarm_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/naviarm_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/naviarm_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/naviarm_bringup/environment")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/naviarm_bringup/environment")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/naviarm_bringup/environment")
 
-# install(FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/naviarm_bringup/environment")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/naviarm_bringup/environment")
+# install(FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/naviarm_bringup/environment")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/naviarm_bringup/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/naviarm_bringup/environment")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/naviarm_bringup/environment")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/naviarm_bringup/environment")
 
-# install(FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/naviarm_bringup/environment")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/naviarm_bringup/environment")
+# install(FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/naviarm_bringup/environment")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/naviarm_bringup/environment")
 
-# install(FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/naviarm_bringup")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/naviarm_bringup")
+# install(FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/naviarm_bringup")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/naviarm_bringup")
 
-# install(FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/naviarm_bringup")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/naviarm_bringup")
+# install(FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/naviarm_bringup")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/naviarm_bringup")
 
-# install(FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/naviarm_bringup")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/naviarm_bringup")
+# install(FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/naviarm_bringup")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/naviarm_bringup")
 
-# install(FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/naviarm_bringup")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/naviarm_bringup")
+# install(FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/naviarm_bringup")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/naviarm_bringup")
 
-# install(FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/naviarm_bringup")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/naviarm_bringup")
+# install(FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/naviarm_bringup")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/naviarm_bringup")
 
-# install(FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_index/share/ament_index/resource_index/packages/naviarm_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_index/share/ament_index/resource_index/packages/naviarm_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_index/share/ament_index/resource_index/packages/naviarm_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_index/share/ament_index/resource_index/packages/naviarm_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_core/naviarm_bringupConfig.cmake" "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_core/naviarm_bringupConfig-version.cmake" "DESTINATION" "share/naviarm_bringup/cmake")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_core/naviarm_bringupConfig.cmake" "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_core/naviarm_bringupConfig-version.cmake" "DESTINATION" "share/naviarm_bringup/cmake")
+# install(FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_core/naviarm_bringupConfig.cmake" "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_core/naviarm_bringupConfig-version.cmake" "DESTINATION" "share/naviarm_bringup/cmake")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_core/naviarm_bringupConfig.cmake" "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_core/naviarm_bringupConfig-version.cmake" "DESTINATION" "share/naviarm_bringup/cmake")
 
-# install(FILES "/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup/package.xml" "DESTINATION" "share/naviarm_bringup")
-ament_cmake_symlink_install_files("/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup/package.xml" "DESTINATION" "share/naviarm_bringup")
+# install(FILES "/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup/package.xml" "DESTINATION" "share/naviarm_bringup")
+ament_cmake_symlink_install_files("/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup" FILES "/home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup/package.xml" "DESTINATION" "share/naviarm_bringup")

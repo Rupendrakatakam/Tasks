@@ -1,1 +1,1 @@
-/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_core/naviarm_bringupConfig-version.cmake
+/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_core/naviarm_bringupConfig-version.cmake

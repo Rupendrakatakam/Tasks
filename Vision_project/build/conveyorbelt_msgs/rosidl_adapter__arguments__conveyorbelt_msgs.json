@@ -1,7 +1,7 @@
 {
   "package_name": "conveyorbelt_msgs",
   "non_idl_tuples": [
-    "/home/rupendra/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs:msg/ConveyorBeltState.msg",
-    "/home/rupendra/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs:srv/ConveyorBeltControl.srv"
+    "/home/humble/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs:msg/ConveyorBeltState.msg",
+    "/home/humble/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs:srv/ConveyorBeltControl.srv"
   ]
 }

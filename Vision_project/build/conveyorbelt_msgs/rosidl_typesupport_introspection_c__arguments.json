@@ -1,10 +1,10 @@
 {
   "package_name": "conveyorbelt_msgs",
-  "output_dir": "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_typesupport_introspection_c/conveyorbelt_msgs",
+  "output_dir": "/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_typesupport_introspection_c/conveyorbelt_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs:msg/ConveyorBeltState.idl",
-    "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs:srv/ConveyorBeltControl.idl"
+    "/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs:msg/ConveyorBeltState.idl",
+    "/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs:srv/ConveyorBeltControl.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
@@ -15,7 +15,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
-    "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs/msg/ConveyorBeltState.idl",
-    "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs/srv/ConveyorBeltControl.idl"
+    "/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs/msg/ConveyorBeltState.idl",
+    "/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs/srv/ConveyorBeltControl.idl"
   ]
 }

@@ -1,0 +1,4 @@
+Invoking command in '/home/humble/Desktop/Tasks/Vision_project/build/naviarm_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/humble/Desktop/Tasks/Vision_project/build/naviarm_gazebo -- -j12 -l12
+Invoked command in '/home/humble/Desktop/Tasks/Vision_project/build/naviarm_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/humble/Desktop/Tasks/Vision_project/build/naviarm_gazebo -- -j12 -l12
+Invoking command in '/home/humble/Desktop/Tasks/Vision_project/build/naviarm_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/humble/Desktop/Tasks/Vision_project/build/naviarm_gazebo
+Invoked command in '/home/humble/Desktop/Tasks/Vision_project/build/naviarm_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/humble/Desktop/Tasks/Vision_project/build/naviarm_gazebo

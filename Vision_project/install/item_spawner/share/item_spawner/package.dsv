@@ -1,0 +1,9 @@
+source;share/item_spawner/hook/pythonpath.ps1
+source;share/item_spawner/hook/pythonpath.dsv
+source;share/item_spawner/hook/pythonpath.sh
+source;share/item_spawner/hook/ament_prefix_path.ps1
+source;share/item_spawner/hook/ament_prefix_path.dsv
+source;share/item_spawner/hook/ament_prefix_path.sh
+source;../../build/item_spawner/share/item_spawner/hook/pythonpath_develop.ps1
+source;../../build/item_spawner/share/item_spawner/hook/pythonpath_develop.dsv
+source;../../build/item_spawner/share/item_spawner/hook/pythonpath_develop.sh

@@ -1,8 +1,0 @@
-[0.815s] Invoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/detect_and_control': PYTHONPATH=/home/rupendra/Desktop/Tasks/Vision_project/build/detect_and_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rupendra/Desktop/Tasks/Vision_project/install/detect_and_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rupendra/Desktop/Tasks/Vision_project/build/detect_and_control/build --no-deps symlink_data
-[1.027s] usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
-[1.027s]    or: setup.py --help [cmd1 cmd2 ...]
-[1.027s]    or: setup.py --help-commands
-[1.027s]    or: setup.py cmd --help
-[1.028s] 
-[1.028s] error: option --editable not recognized
-[1.046s] Invoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/detect_and_control' returned '1': PYTHONPATH=/home/rupendra/Desktop/Tasks/Vision_project/build/detect_and_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rupendra/Desktop/Tasks/Vision_project/install/detect_and_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rupendra/Desktop/Tasks/Vision_project/build/detect_and_control/build --no-deps symlink_data

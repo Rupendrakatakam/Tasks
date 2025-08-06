@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup
+CMAKE_SOURCE_DIR = /home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup
+CMAKE_BINARY_DIR = /home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup
 
 # Utility rule file for naviarm_bringup_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/naviarm_bringup_uninstall.dir/compiler_depend.make
 include CMakeFiles/naviarm_bringup_uninstall.dir/progress.make
 
 CMakeFiles/naviarm_bringup_uninstall:
-	/usr/bin/cmake -P /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 naviarm_bringup_uninstall: CMakeFiles/naviarm_bringup_uninstall
 naviarm_bringup_uninstall: CMakeFiles/naviarm_bringup_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/naviarm_bringup_uninstall.dir/clean:
 .PHONY : CMakeFiles/naviarm_bringup_uninstall.dir/clean
 
 CMakeFiles/naviarm_bringup_uninstall.dir/depend:
-	cd /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup /home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/CMakeFiles/naviarm_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup /home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup /home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup /home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup /home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/CMakeFiles/naviarm_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/naviarm_bringup_uninstall.dir/depend
 

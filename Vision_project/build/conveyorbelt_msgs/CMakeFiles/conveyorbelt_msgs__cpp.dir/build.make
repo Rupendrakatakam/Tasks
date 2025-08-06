@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rupendra/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs
+CMAKE_SOURCE_DIR = /home/humble/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs
+CMAKE_BINARY_DIR = /home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs
 
 # Utility rule file for conveyorbelt_msgs__cpp.
 
@@ -95,8 +95,8 @@ rosidl_generator_cpp/conveyorbelt_msgs/msg/conveyor_belt_state.hpp: /opt/ros/hum
 rosidl_generator_cpp/conveyorbelt_msgs/msg/conveyor_belt_state.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/conveyorbelt_msgs/msg/conveyor_belt_state.hpp: rosidl_adapter/conveyorbelt_msgs/msg/ConveyorBeltState.idl
 rosidl_generator_cpp/conveyorbelt_msgs/msg/conveyor_belt_state.hpp: rosidl_adapter/conveyorbelt_msgs/srv/ConveyorBeltControl.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/conveyorbelt_msgs/msg/detail/conveyor_belt_state__builder.hpp: rosidl_generator_cpp/conveyorbelt_msgs/msg/conveyor_belt_state.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/conveyorbelt_msgs/msg/detail/conveyor_belt_state__builder.hpp
@@ -148,6 +148,6 @@ CMakeFiles/conveyorbelt_msgs__cpp.dir/clean:
 .PHONY : CMakeFiles/conveyorbelt_msgs__cpp.dir/clean
 
 CMakeFiles/conveyorbelt_msgs__cpp.dir/depend:
-	cd /home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rupendra/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs /home/rupendra/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs /home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs /home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs /home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/CMakeFiles/conveyorbelt_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/humble/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs /home/humble/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs /home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs /home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs /home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/CMakeFiles/conveyorbelt_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/conveyorbelt_msgs__cpp.dir/depend
 

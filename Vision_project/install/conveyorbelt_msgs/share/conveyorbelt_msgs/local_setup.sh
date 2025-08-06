@@ -1,1 +1,1 @@
-/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/ament_cmake_environment_hooks/local_setup.sh
+/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/ament_cmake_environment_hooks/local_setup.sh

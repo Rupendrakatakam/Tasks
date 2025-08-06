@@ -1,0 +1,3 @@
+[console_scripts]
+bottle_detector = bottle_detection.bottle_detector:main
+
