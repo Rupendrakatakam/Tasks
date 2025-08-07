@@ -1,1 +1,1 @@
-/home/humble/Desktop/Tasks/Vision_project/src/bottle_detection/setup.py
+/home/rupendra/Desktop/Tasks/Vision_project/src/bottle_detection/setup.py

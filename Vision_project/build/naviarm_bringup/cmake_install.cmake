@@ -1,8 +1,8 @@
-# Install script for directory: /home/humble/Desktop/Tasks/Vision_project/src/naviarm_bringup
+# Install script for directory: /home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/humble/Desktop/Tasks/Vision_project/install/naviarm_bringup")
+  set(CMAKE_INSTALL_PREFIX "/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

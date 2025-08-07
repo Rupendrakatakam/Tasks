@@ -1,0 +1,10 @@
+[1.027s] Invoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/item_spawner': PYTHONPATH=/home/rupendra/Desktop/Tasks/Vision_project/build/item_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rupendra/Desktop/Tasks/Vision_project/install/item_spawner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rupendra/Desktop/Tasks/Vision_project/build/item_spawner/build --no-deps symlink_data
+[1.184s] /home/rupendra/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.184s]   warnings.warn(msg)
+[1.258s] usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+[1.258s]    or: setup.py --help [cmd1 cmd2 ...]
+[1.259s]    or: setup.py --help-commands
+[1.259s]    or: setup.py cmd --help
+[1.259s] 
+[1.259s] error: option --editable not recognized
+[1.296s] Invoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/item_spawner' returned '1': PYTHONPATH=/home/rupendra/Desktop/Tasks/Vision_project/build/item_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rupendra/Desktop/Tasks/Vision_project/install/item_spawner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rupendra/Desktop/Tasks/Vision_project/build/item_spawner/build --no-deps symlink_data

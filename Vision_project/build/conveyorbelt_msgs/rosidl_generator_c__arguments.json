@@ -1,10 +1,10 @@
 {
   "package_name": "conveyorbelt_msgs",
-  "output_dir": "/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_generator_c/conveyorbelt_msgs",
+  "output_dir": "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_generator_c/conveyorbelt_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs:msg/ConveyorBeltState.idl",
-    "/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs:srv/ConveyorBeltControl.idl"
+    "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs:msg/ConveyorBeltState.idl",
+    "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs:srv/ConveyorBeltControl.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -20,7 +20,7 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs/msg/ConveyorBeltState.idl",
-    "/home/humble/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs/srv/ConveyorBeltControl.idl"
+    "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs/msg/ConveyorBeltState.idl",
+    "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_adapter/conveyorbelt_msgs/srv/ConveyorBeltControl.idl"
   ]
 }

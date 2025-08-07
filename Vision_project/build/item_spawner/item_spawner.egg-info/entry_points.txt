@@ -1,3 +1,0 @@
-[console_scripts]
-spawner_node = item_spawner.spawner_node:main
-

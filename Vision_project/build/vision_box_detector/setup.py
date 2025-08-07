@@ -1,1 +1,0 @@
-/home/humble/Desktop/Tasks/Vision_project/src/vision_box_detector/setup.py

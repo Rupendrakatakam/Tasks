@@ -1,0 +1,325 @@
+[0.104s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install'][0m
+[0.104s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ee0e4593c40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ee0e45931c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ee0e45931c0>>, mixin_verb=('build',))[0m
+[0.133s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.133s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.133s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.133s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.133s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.133s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.133s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/rupendra/Desktop/Tasks/Vision_project'
+[0.133s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.134s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.134s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.134s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.134s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.134s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.134s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.134s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bottle_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bottle_detection) by extension 'ignore'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bottle_detection) by extension 'ignore_ament_install'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bottle_detection) by extensions ['colcon_pkg']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bottle_detection) by extension 'colcon_pkg'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bottle_detection) by extensions ['colcon_meta']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bottle_detection) by extension 'colcon_meta'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bottle_detection) by extensions ['ros']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bottle_detection) by extension 'ros'
+[0.155s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/bottle_detection' with type 'ros.ament_python' and name 'bottle_detection'[0m
+[0.155s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/item_spawner) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/item_spawner) by extension 'ignore'
+[0.155s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/item_spawner) ignored
+[0.156s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_bringup) by extension 'ignore'
+[0.156s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_bringup) by extension 'ignore_ament_install'
+[0.156s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_bringup) by extensions ['colcon_pkg']
+[0.156s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_bringup) by extension 'colcon_pkg'
+[0.156s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_bringup) by extensions ['colcon_meta']
+[0.156s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_bringup) by extension 'colcon_meta'
+[0.156s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_bringup) by extensions ['ros']
+[0.156s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_bringup) by extension 'ros'
+[0.156s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/naviarm_bringup' with type 'ros.ament_cmake' and name 'naviarm_bringup'[0m
+[0.156s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_gazebo) by extension 'ignore'
+[0.156s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_gazebo) by extension 'ignore_ament_install'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_gazebo) by extensions ['colcon_pkg']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_gazebo) by extension 'colcon_pkg'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_gazebo) by extensions ['colcon_meta']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_gazebo) by extension 'colcon_meta'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_gazebo) by extensions ['ros']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/naviarm_gazebo) by extension 'ros'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/naviarm_gazebo' with type 'ros.ament_cmake' and name 'naviarm_gazebo'[0m
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extension 'ignore'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extension 'ignore_ament_install'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extensions ['colcon_pkg']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extension 'colcon_pkg'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extensions ['colcon_meta']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extension 'colcon_meta'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extensions ['ros']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extension 'ros'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extensions ['cmake', 'python']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extension 'cmake'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extension 'python'
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extensions ['python_setup_py']
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils) by extension 'python_setup_py'
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils/conveyorbelt_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils/conveyorbelt_msgs) by extension 'ignore'
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils/conveyorbelt_msgs) by extension 'ignore_ament_install'
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils/conveyorbelt_msgs) by extensions ['colcon_pkg']
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils/conveyorbelt_msgs) by extension 'colcon_pkg'
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils/conveyorbelt_msgs) by extensions ['colcon_meta']
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils/conveyorbelt_msgs) by extension 'colcon_meta'
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils/conveyorbelt_msgs) by extensions ['ros']
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/utils/conveyorbelt_msgs) by extension 'ros'
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/utils/conveyorbelt_msgs' with type 'ros.ament_cmake' and name 'conveyorbelt_msgs'[0m
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/vision_box_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/vision_box_detector) by extension 'ignore'
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/vision_box_detector) ignored
+[0.158s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.159s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.159s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.159s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.159s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.170s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.170s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.172s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /home/rupendra/Desktop/Tasks/Vision_project/install[0m
+[0.173s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 281 installed packages in /opt/ros/humble[0m
+[0.174s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bottle_detection' build argument 'cmake_args' from command line to 'None'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bottle_detection' build argument 'cmake_target' from command line to 'None'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bottle_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bottle_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bottle_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bottle_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bottle_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bottle_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bottle_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'bottle_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rupendra/Desktop/Tasks/Vision_project/build/bottle_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection', 'merge_install': False, 'path': '/home/rupendra/Desktop/Tasks/Vision_project/src/bottle_detection', 'symlink_install': True, 'test_result_base': None}[0m
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conveyorbelt_msgs' build argument 'cmake_args' from command line to 'None'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conveyorbelt_msgs' build argument 'cmake_target' from command line to 'None'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conveyorbelt_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conveyorbelt_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conveyorbelt_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conveyorbelt_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conveyorbelt_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conveyorbelt_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'conveyorbelt_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.211s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'conveyorbelt_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs', 'merge_install': False, 'path': '/home/rupendra/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs', 'symlink_install': True, 'test_result_base': None}[0m
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_bringup' build argument 'cmake_args' from command line to 'None'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_bringup' build argument 'cmake_target' from command line to 'None'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'naviarm_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup', 'merge_install': False, 'path': '/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup', 'symlink_install': True, 'test_result_base': None}[0m
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'naviarm_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.212s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'naviarm_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo', 'merge_install': False, 'path': '/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_gazebo', 'symlink_install': True, 'test_result_base': None}[0m
+[0.213s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.213s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.214s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/rupendra/Desktop/Tasks/Vision_project/src/bottle_detection' with build type 'ament_python'
+[0.214s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('bottle_detection', 'ament_prefix_path')
+[0.215s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.216s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/share/bottle_detection/hook/ament_prefix_path.ps1'
+[0.216s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/share/bottle_detection/hook/ament_prefix_path.dsv'
+[0.216s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/share/bottle_detection/hook/ament_prefix_path.sh'
+[0.217s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.217s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.220s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/rupendra/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs' with build type 'ament_cmake'
+[0.220s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/rupendra/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs'
+[0.220s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.220s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.223s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup' with build type 'ament_cmake'
+[0.223s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_bringup'
+[0.223s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.223s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.226s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_gazebo' with build type 'ament_cmake'
+[0.227s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_gazebo'
+[0.227s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.227s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.456s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/rupendra/Desktop/Tasks/Vision_project/src/bottle_detection'
+[0.456s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.456s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.462s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs -- -j16 -l16[0m
+[0.465s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup -- -j16 -l16[0m
+[0.468s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo -- -j16 -l16[0m
+[0.500s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup -- -j16 -l16[0m
+[0.509s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup[0m
+[0.511s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo -- -j16 -l16[0m
+[0.513s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo[0m
+[0.533s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(naviarm_bringup)
+[0.534s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup[0m
+[0.541s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup' for CMake module files
+[0.543s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup' for CMake config files
+[0.546s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('naviarm_bringup', 'cmake_prefix_path')
+[0.546s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/hook/cmake_prefix_path.ps1'
+[0.547s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/hook/cmake_prefix_path.dsv'
+[0.549s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/hook/cmake_prefix_path.sh'
+[0.551s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/bin'
+[0.552s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/lib/pkgconfig/naviarm_bringup.pc'
+[0.552s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/lib/python3.10/site-packages'
+[0.552s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/bin'
+[0.552s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/package.ps1'
+[0.555s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/package.dsv'
+[0.556s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/package.sh'
+[0.557s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/package.bash'
+[0.558s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/package.zsh'
+[0.560s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/colcon-core/packages/naviarm_bringup)
+[0.563s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(naviarm_bringup)
+[0.564s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup' for CMake module files
+[0.566s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup' for CMake config files
+[0.569s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('naviarm_bringup', 'cmake_prefix_path')
+[0.569s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/hook/cmake_prefix_path.ps1'
+[0.570s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/hook/cmake_prefix_path.dsv'
+[0.572s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/hook/cmake_prefix_path.sh'
+[0.574s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/bin'
+[0.574s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/lib/pkgconfig/naviarm_bringup.pc'
+[0.574s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/lib/python3.10/site-packages'
+[0.574s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/bin'
+[0.575s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/package.ps1'
+[0.577s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/package.dsv'
+[0.578s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/package.sh'
+[0.578s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/package.bash'
+[0.579s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/naviarm_bringup/package.zsh'
+[0.581s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_bringup/share/colcon-core/packages/naviarm_bringup)
+[0.609s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(naviarm_gazebo)
+[0.610s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo' for CMake module files
+[0.610s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_gazebo[0m
+[0.611s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo' for CMake config files
+[0.611s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('naviarm_gazebo', 'cmake_prefix_path')
+[0.611s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/hook/cmake_prefix_path.ps1'
+[0.612s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/hook/cmake_prefix_path.dsv'
+[0.612s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/hook/cmake_prefix_path.sh'
+[0.613s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/bin'
+[0.613s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/lib/pkgconfig/naviarm_gazebo.pc'
+[0.613s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/lib/python3.10/site-packages'
+[0.613s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/bin'
+[0.613s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/package.ps1'
+[0.614s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/package.dsv'
+[0.614s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/package.sh'
+[0.615s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/package.bash'
+[0.615s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/package.zsh'
+[0.616s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/colcon-core/packages/naviarm_gazebo)
+[0.617s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(naviarm_gazebo)
+[0.617s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo' for CMake module files
+[0.617s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo' for CMake config files
+[0.617s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('naviarm_gazebo', 'cmake_prefix_path')
+[0.618s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/hook/cmake_prefix_path.ps1'
+[0.618s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/hook/cmake_prefix_path.dsv'
+[0.618s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/hook/cmake_prefix_path.sh'
+[0.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/bin'
+[0.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/lib/pkgconfig/naviarm_gazebo.pc'
+[0.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/lib/python3.10/site-packages'
+[0.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/bin'
+[0.619s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/package.ps1'
+[0.620s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/package.dsv'
+[0.620s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/package.sh'
+[0.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/package.bash'
+[0.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/naviarm_gazebo/package.zsh'
+[0.622s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rupendra/Desktop/Tasks/Vision_project/install/naviarm_gazebo/share/colcon-core/packages/naviarm_gazebo)
+[0.914s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs -- -j16 -l16[0m
+[0.916s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs[0m
+[0.992s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(conveyorbelt_msgs)
+[0.992s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs' for CMake module files
+[0.993s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs[0m
+[0.993s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs' for CMake config files
+[0.994s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('conveyorbelt_msgs', 'cmake_prefix_path')
+[0.995s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.ps1'
+[0.995s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.dsv'
+[0.995s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.sh'
+[0.996s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib'
+[0.997s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('conveyorbelt_msgs', 'ld_library_path_lib')
+[0.997s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.ps1'
+[0.997s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.dsv'
+[0.998s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.sh'
+[0.998s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/bin'
+[0.998s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/pkgconfig/conveyorbelt_msgs.pc'
+[0.998s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/python3.10/site-packages'
+[0.999s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/bin'
+[0.999s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.ps1'
+[0.999s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.dsv'
+[1.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.sh'
+[1.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.bash'
+[1.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.zsh'
+[1.001s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/colcon-core/packages/conveyorbelt_msgs)
+[1.001s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(conveyorbelt_msgs)
+[1.001s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs' for CMake module files
+[1.002s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs' for CMake config files
+[1.003s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('conveyorbelt_msgs', 'cmake_prefix_path')
+[1.003s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.ps1'
+[1.004s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.dsv'
+[1.004s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/cmake_prefix_path.sh'
+[1.005s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib'
+[1.005s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('conveyorbelt_msgs', 'ld_library_path_lib')
+[1.005s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.ps1'
+[1.005s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.dsv'
+[1.006s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/hook/ld_library_path_lib.sh'
+[1.006s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/bin'
+[1.006s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/pkgconfig/conveyorbelt_msgs.pc'
+[1.006s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/lib/python3.10/site-packages'
+[1.006s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/bin'
+[1.007s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.ps1'
+[1.007s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.dsv'
+[1.008s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.sh'
+[1.008s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.bash'
+[1.009s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/conveyorbelt_msgs/package.zsh'
+[1.009s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/rupendra/Desktop/Tasks/Vision_project/install/conveyorbelt_msgs/share/colcon-core/packages/conveyorbelt_msgs)
+[1.051s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/rupendra/Desktop/Tasks/Vision_project/build/bottle_detection': PYTHONPATH=/home/rupendra/Desktop/Tasks/Vision_project/build/bottle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rupendra/Desktop/Tasks/Vision_project/build/bottle_detection/build --no-deps symlink_data[0m
+[1.319s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/rupendra/Desktop/Tasks/Vision_project/build/bottle_detection' returned '1': PYTHONPATH=/home/rupendra/Desktop/Tasks/Vision_project/build/bottle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rupendra/Desktop/Tasks/Vision_project/build/bottle_detection/build --no-deps symlink_data[0m
+[1.328s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.329s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.329s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[1.329s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.334s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.334s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.334s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[1.345s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.346s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/rupendra/Desktop/Tasks/Vision_project/install/local_setup.ps1'
+[1.347s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/rupendra/Desktop/Tasks/Vision_project/install/_local_setup_util_ps1.py'
+[1.348s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/rupendra/Desktop/Tasks/Vision_project/install/setup.ps1'
+[1.349s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/rupendra/Desktop/Tasks/Vision_project/install/local_setup.sh'
+[1.350s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/rupendra/Desktop/Tasks/Vision_project/install/_local_setup_util_sh.py'
+[1.350s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/rupendra/Desktop/Tasks/Vision_project/install/setup.sh'
+[1.353s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/rupendra/Desktop/Tasks/Vision_project/install/local_setup.bash'
+[1.354s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/rupendra/Desktop/Tasks/Vision_project/install/setup.bash'
+[1.356s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/rupendra/Desktop/Tasks/Vision_project/install/local_setup.zsh'
+[1.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/rupendra/Desktop/Tasks/Vision_project/install/setup.zsh'

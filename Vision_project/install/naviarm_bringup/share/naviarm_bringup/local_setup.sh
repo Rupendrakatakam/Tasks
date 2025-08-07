@@ -1,1 +1,1 @@
-/home/humble/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.sh
+/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.sh
