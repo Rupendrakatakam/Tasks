@@ -1,1 +1,2 @@
-/home/rupendra/Desktop/Tasks/Vision_project/build/naviarm_bringup/ament_cmake_environment_hooks/local_setup.dsv
+source;share/naviarm_bringup/environment/ament_prefix_path.sh
+source;share/naviarm_bringup/environment/path.sh

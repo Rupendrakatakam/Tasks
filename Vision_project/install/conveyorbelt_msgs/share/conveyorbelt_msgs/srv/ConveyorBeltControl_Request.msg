@@ -1,1 +1,1 @@
-/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_cmake/srv/ConveyorBeltControl_Request.msg
+float64 power   # Desired conveyor bolt POWER.

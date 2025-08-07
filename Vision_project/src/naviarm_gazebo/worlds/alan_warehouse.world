@@ -10643,5 +10643,98 @@
       <static>1</static>
       <pose>-1.48399 6.10829 0 0 -0 0</pose>
     </model>
+    <!-- Second RealSense D435 Camera -->
+    <model name='realsense_d435_2'>
+      <link name='link'>
+        <inertial>
+          <mass>0.0615752</mass>
+          <inertia>
+            <ixx>9.108e-05</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>2.51e-06</iyy>
+            <iyz>0</iyz>
+            <izz>8.931e-05</izz>
+          </inertia>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://RealSense_D435/meshes/realsense.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://RealSense_D435/meshes/realsense.dae</uri>
+              <submesh>
+                <name>RealSense</name>
+                <center>0</center>
+              </submesh>
+            </mesh>
+          </geometry>
+          <material>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>1 1 1 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>model://RealSense_D435/materials/textures/RealSense_Albedo.png</albedo_map>
+                <normal_map>model://RealSense_D435/materials/textures/RealSense_Normal.png</normal_map>
+                <metalness_map>model://RealSense_D435/materials/textures/RealSense_Metalness.png</metalness_map>
+                <roughness_map>model://RealSense_D435/materials/textures/RealSense_Roughness.png</roughness_map>
+              </metal>
+            </pbr>
+            <script>
+              <uri>model://RealSense_D435/materials/scripts/</uri>
+              <uri>model://RealSense_D435/materials/textures/</uri>
+              <name>UrbanTile/RealSense_Diffuse</name>
+            </script>
+          </material>
+        </visual>
+        <sensor name='realsense_rgb_camera_2' type='depth'>
+          <pose>0 0 0 0 0 -1.5708</pose>
+          <always_on>1</always_on>
+          <update_rate>30</update_rate>
+          <visualize>1</visualize>
+          <camera name='rgb_camera2'>
+            <horizontal_fov>1.0472</horizontal_fov>
+            <image>
+              <width>640</width>
+              <height>480</height>
+              <format>R8G8B8</format>
+            </image>
+            <clip>
+              <near>0.01</near>
+              <far>10</far>
+            </clip>
+          </camera>
+          <plugin name='rgb_camera_controller_2' filename='libgazebo_ros_camera.so'>
+            <camera_name>camera2</camera_name>
+            <frame_name>realsense_rgb_frame_2</frame_name>
+          </plugin>
+        </sensor>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose>-2.254 6.419 1.038 0.089 -0 1.546</pose>
+    </model>
   </world>
 </sdf>
+

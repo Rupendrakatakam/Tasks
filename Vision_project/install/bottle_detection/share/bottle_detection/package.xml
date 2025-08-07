@@ -24,3 +24,7 @@
     <build_type>ament_python</build_type>
   </export>
 </package>
+
+          <!-- <ambient>0.2 0.8 0.2 0.5</ambient> <diffuse>0.2 0.8 0.2 0.5</diffuse>
+          <specular>0.1 0.1 0.1 0.5</specular>
+          <emissive>0 0 0 1</emissive>  -->

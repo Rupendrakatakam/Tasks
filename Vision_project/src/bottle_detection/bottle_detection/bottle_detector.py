@@ -29,7 +29,7 @@ class BottleDetector(Node):
         
         # Load YOLOv8 model (using large version for accuracy)
         try:
-            self.model = YOLO('yolov8l.pt')
+            self.model = YOLO('yolov8m.pt')
             self.get_logger().info('YOLOv8 model loaded successfully')
         except Exception as e:
             self.get_logger().error(f'Failed to load YOLO model: {str(e)}')

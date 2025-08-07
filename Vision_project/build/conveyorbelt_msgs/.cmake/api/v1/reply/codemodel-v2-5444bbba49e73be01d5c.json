@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-911c34d0fc54aa8cf426.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "conveyorbelt_msgs__py",
+					"jsonFile" : "directory-conveyorbelt_msgs__py-c30ba788a9290628ce6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/conveyorbelt_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "conveyorbelt_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_conveyorbelt_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_conveyorbelt_msgs_egg-a53fde3902d47d38e651.json",
+					"name" : "ament_cmake_python_build_conveyorbelt_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_conveyorbelt_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_conveyorbelt_msgs-404c5e4cd86dc068b98b.json",
+					"name" : "ament_cmake_python_copy_conveyorbelt_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs-9f1aa7974ad8ad584a38.json",
+					"name" : "conveyorbelt_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__cpp-64650f27a049f5e07677.json",
+					"name" : "conveyorbelt_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "conveyorbelt_msgs__py::@e38449f765b71972820e",
+					"jsonFile" : "target-conveyorbelt_msgs__py-f710adf2bdfe2b578a79.json",
+					"name" : "conveyorbelt_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_generator_c-181cbff4ebbec8d2d26b.json",
+					"name" : "conveyorbelt_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_generator_py-09075572766dd83fee07.json",
+					"name" : "conveyorbelt_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_c-c5cc7bb40aefaddfa559.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_c__pyext-49995ae836413ea0ffe0.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_cpp-ae8b5207f7880ab1c18d.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_fastrtps_c-06b34f98bb1ee8ddd897.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext-cd02d9a865c09caf81b4.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp-44f81e006499dd28448b.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_introspection_c-c1bc860e508fa63ee2fa.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext-50e70d1f82ad97249dbc.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs__rosidl_typesupport_introspection_cpp-172743275f77991c2f77.json",
+					"name" : "conveyorbelt_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conveyorbelt_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conveyorbelt_msgs_uninstall-227ca5092e076a1f0624.json",
+					"name" : "conveyorbelt_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b02a953a2b3fd26cf1d0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs",
+		"source" : "/home/rupendra/Desktop/Tasks/Vision_project/src/utils/conveyorbelt_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
