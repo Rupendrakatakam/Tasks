@@ -6,7 +6,7 @@ from typing import List, Tuple, Dict, Any
 import rclpy
 
 class ONNXBottleDetector:
-    def __init__(self, model_path: str = "yolov8n.onnx", confidence_threshold: float = 0.5):
+    def __init__(self, model_path: str = "yolov8m.onnx", confidence_threshold: float = 0.5):
         """
         Initialize ONNX-based bottle detector
         

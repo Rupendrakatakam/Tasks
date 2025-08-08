@@ -254,9 +254,9 @@ class BottleDetector(Node):
         
         # Try to find the ONNX model - check multiple locations
         model_candidates = [
-            os.path.join(self.base_dir, 'yolov8n.onnx'),
+            # os.path.join(self.base_dir, 'yolov8n.onnx'),
             os.path.join(self.base_dir, 'yolov8m.onnx'),
-            os.path.join(os.path.dirname(os.path.abspath(__file__)), 'yolov8n.onnx'),
+            # os.path.join(os.path.dirname(os.path.abspath(__file__)), 'yolov8n.onnx'),
             os.path.join(os.path.dirname(os.path.abspath(__file__)), 'yolov8m.onnx')
         ]
         
