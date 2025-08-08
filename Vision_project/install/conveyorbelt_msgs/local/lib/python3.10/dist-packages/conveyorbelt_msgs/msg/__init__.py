@@ -1,1 +1,1 @@
-from conveyorbelt_msgs.msg._conveyor_belt_state import ConveyorBeltState  # noqa: F401
+/home/rupendra/Desktop/Tasks/Vision_project/build/conveyorbelt_msgs/rosidl_generator_py/conveyorbelt_msgs/msg/__init__.py

@@ -1,7 +1,1 @@
-<?xml version='1.0'?>
-<sdf version='1.7'>
-  <model name='med_tray_strip2'>
-    <static>0</static>
-    <allow_auto_disable>1</allow_auto_disable>
-  </model>
-</sdf>
+/home/rupendra/Desktop/Tasks/Vision_project/src/naviarm_gazebo/models/med_tray_strip2/model.sdf

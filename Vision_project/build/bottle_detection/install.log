@@ -1,11 +1,17 @@
 /home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages/bottle_detection/database.py
+/home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages/bottle_detection/onnx_inference.py
 /home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages/bottle_detection/__init__.py
 /home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages/bottle_detection/bottle_detector.py
+/home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages/bottle_detection/yolov8n.onnx
+/home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages/bottle_detection/yolov8m.onnx
 /home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages/bottle_detection/__pycache__/database.cpython-310.pyc
+/home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages/bottle_detection/__pycache__/onnx_inference.cpython-310.pyc
 /home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages/bottle_detection/__pycache__/__init__.cpython-310.pyc
 /home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages/bottle_detection/__pycache__/bottle_detector.cpython-310.pyc
 /home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/share/ament_index/resource_index/packages/bottle_detection
 /home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/share/bottle_detection/package.xml
+/home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/bottle_detection/yolov8n.onnx
+/home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/bottle_detection/yolov8m.onnx
 /home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages/bottle_detection-0.0.0-py3.10.egg-info/zip-safe
 /home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages/bottle_detection-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/rupendra/Desktop/Tasks/Vision_project/install/bottle_detection/lib/python3.10/site-packages/bottle_detection-0.0.0-py3.10.egg-info/dependency_links.txt

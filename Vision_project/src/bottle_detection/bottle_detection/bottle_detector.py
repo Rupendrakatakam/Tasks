@@ -218,7 +218,6 @@
 # if __name__ == '__main__':
 #     main()
 
-
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
@@ -226,10 +225,12 @@ from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 import cv2
 import numpy as np
-import onnxruntime as ort
-import time
+from rclpy.qos import QoSProfile, QoSHistoryPolicy, QoSReliabilityPolicy
 import os
+import time
+import sys
 from .database import DetectionDatabase
+from .onnx_inference import ONNXBottleDetector
 
 class BottleDetector(Node):
     def __init__(self):
@@ -238,8 +239,12 @@ class BottleDetector(Node):
         # Initialize CvBridge for image conversion
         self.bridge = CvBridge()
         
+        # Find the package directory reliably
+        package_dir = self.get_package_directory()
+        self.get_logger().info(f'Package directory: {package_dir}')
+        
         # Setup directories
-        self.base_dir = os.path.expanduser('~/Desktop/Tasks/Vision_project/src/bottle_detection/bottle_detection')
+        self.base_dir = package_dir
         self.image_dir = os.path.join(self.base_dir, 'data/images')
         os.makedirs(self.image_dir, exist_ok=True)
         
@@ -247,40 +252,46 @@ class BottleDetector(Node):
         self.db = DetectionDatabase(os.path.join(self.base_dir, 'detections.db'))
         self.get_logger().info(f'Database initialized at {self.db.db_path}')
         
-        # Path to ONNX model
-        self.onnx_model_path = os.path.join(self.base_dir, 'yolov8n.onnx')
+        # Try to find the ONNX model - check multiple locations
+        model_candidates = [
+            os.path.join(self.base_dir, 'yolov8n.onnx'),
+            os.path.join(self.base_dir, 'yolov8m.onnx'),
+            os.path.join(os.path.dirname(os.path.abspath(__file__)), 'yolov8n.onnx'),
+            os.path.join(os.path.dirname(os.path.abspath(__file__)), 'yolov8m.onnx')
+        ]
         
-        # Check if model exists, if not try common locations
-        if not os.path.exists(self.onnx_model_path):
-            # Try workspace root
-            self.onnx_model_path = os.path.expanduser('~/Desktop/Tasks/Vision_project/yolov8n.onnx')
-            if not os.path.exists(self.onnx_model_path):
-                self.get_logger().fatal('ONNX model not found. Please run the export command first.')
-                raise FileNotFoundError('ONNX model not found')
+        model_path = None
+        for candidate in model_candidates:
+            if os.path.exists(candidate):
+                model_path = candidate
+                break
+                
+        if not model_path:
+            self.get_logger().fatal(f'ONNX model not found in any expected location. Checked: {model_candidates}')
+            raise FileNotFoundError('ONNX model not found')
         
-        # Initialize ONNX Runtime session
-        self.get_logger().info(f'Loading ONNX model from: {self.onnx_model_path}')
-        self.session = ort.InferenceSession(
-            self.onnx_model_path,
-            providers=['CPUExecutionProvider']  # Use 'CUDAExecutionProvider' if you have GPU
-        )
+        self.get_logger().info(f'Using ONNX model: {model_path}')
         
-        # Get model info
-        self.input_name = self.session.get_inputs()[0].name
-        self.output_names = [output.name for output in self.session.get_outputs()]
-        self.input_shape = self.session.get_inputs()[0].shape
-        self.get_logger().info(f'Model input shape: {self.input_shape}')
-        
-        # Bottle class ID in COCO dataset is 39
-        self.bottle_class_id = 39
+        # Initialize ONNX detector
+        try:
+            self.detector = ONNXBottleDetector(
+                model_path=model_path,
+                confidence_threshold=0.5
+            )
+            self.get_logger().info('ONNX bottle detector initialized successfully')
+        except Exception as e:
+            self.get_logger().fatal(f'Failed to initialize ONNX detector: {str(e)}')
+            raise
         
         # Detection parameters
-        self.confidence_threshold = 0.5
-        self.min_detections_interval = 1.0
+        self.min_detections_interval = 1.0  # Minimum time between detection logs (seconds)
         self.last_detection_time = 0
+        self.fps_update_interval = 2.0  # Seconds between FPS updates
+        self.last_fps_update = 0
+        self.frame_count = 0
+        self.inference_times = []
         
-        # Create subscription to camera image
-        from rclpy.qos import QoSProfile, QoSHistoryPolicy, QoSReliabilityPolicy
+        # Create subscription to camera image with appropriate QoS
         qos_profile = QoSProfile(
             history=QoSHistoryPolicy.KEEP_LAST,
             depth=5,
@@ -288,112 +299,43 @@ class BottleDetector(Node):
         )
         self.image_sub = self.create_subscription(
             Image,
-            '/camera/image_raw',
+            '/camera2/image_raw',
             self.image_callback,
             qos_profile
         )
         
-        # Create publishers
+        # Create publisher for annotated image
         self.annotated_pub = self.create_publisher(Image, '/detection/bottle_detection', 10)
+        
+        # Create publisher for debug image (with confidence scores)
         self.debug_pub = self.create_publisher(Image, '/detection/bottle_debug', 10)
         
         # Create timer for periodic database status checks
         self.db_timer = self.create_timer(30.0, self.check_db_status)
         
-        self.get_logger().info('Bottle detection node initialized with ONNX backend')
-        self.get_logger().info(f'Model: {os.path.basename(self.onnx_model_path)}')
+        self.get_logger().info('Bottle detection node initialized and ready')
         self.get_logger().info('Subscribed to: /camera/image_raw')
+        self.get_logger().info('Publishing to: /detection/bottle_detection')
+        self.get_logger().info('Publishing debug to: /detection/bottle_debug')
+        self.get_logger().info(f'Database file: {self.db.db_path}')
 
-    def preprocess(self, image):
-        """Preprocess image for ONNX model"""
-        # Resize while maintaining aspect ratio
-        h, w = image.shape[:2]
-        input_h, input_w = self.input_shape[2], self.input_shape[3]
-        
-        # Calculate ratio and new dimensions
-        r = min(input_h / h, input_w / w)
-        new_unpad = (int(round(w * r)), int(round(h * r)))
-        dw, dh = input_w - new_unpad[0], input_h - new_unpad[1]
-        
-        # Resize
-        if (h, w) != new_unpad:
-            image = cv2.resize(image, new_unpad, interpolation=cv2.INTER_LINEAR)
-        
-        # Add padding
-        top, bottom = dh // 2, dh - (dh // 2)
-        left, right = dw // 2, dw - (dw // 2)
-        image = cv2.copyMakeBorder(image, top, bottom, left, right, cv2.BORDER_CONSTANT, value=(114, 114, 114))
-        
-        # HWC to CHW and normalize
-        image = image.transpose(2, 0, 1)
-        image = image.astype(np.float32) / 255.0
-        
-        # Add batch dimension
-        image = np.expand_dims(image, axis=0)
-        
-        return image, (h, w), (top, left, r)
-
-    def postprocess(self, output, orig_shape, pad_info):
-        """Process ONNX model output to get detections"""
-        # Extract dimensions
-        h, w = orig_shape
-        top, left, r = pad_info
-        
-        # Process output (YOLOv8 output format)
-        # Output shape: [batch, num_boxes, 84] where 84 = 4 (bbox) + 80 (classes)
-        predictions = output[0]  # First output tensor
-        
-        # Filter by confidence
-        scores = predictions[:, 4:]
-        class_ids = np.argmax(scores, axis=1)
-        confidences = np.max(scores, axis=1)
-        
-        # Get bounding boxes
-        boxes = predictions[:, :4]
-        # Convert from [cx, cy, w, h] to [x1, y1, x2, y2]
-        x_c = boxes[:, 0] / self.input_shape[3]
-        y_c = boxes[:, 1] / self.input_shape[2]
-        w_box = boxes[:, 2] / self.input_shape[3]
-        h_box = boxes[:, 3] / self.input_shape[2]
-        
-        x1 = (x_c - w_box/2) * self.input_shape[3]
-        y1 = (y_c - h_box/2) * self.input_shape[2]
-        x2 = (x_c + w_box/2) * self.input_shape[3]
-        y2 = (y_c + h_box/2) * self.input_shape[2]
-        
-        # Adjust for padding and resize
-        x1 = (x1 - left) / r
-        y1 = (y1 - top) / r
-        x2 = (x2 - left) / r
-        y2 = (y2 - top) / r
-        
-        # Clip to image boundaries
-        x1 = np.clip(x1, 0, w)
-        y1 = np.clip(y1, 0, h)
-        x2 = np.clip(x2, 0, w)
-        x2 = np.clip(x2, 0, h)
-        
-        # Filter by confidence threshold
-        mask = confidences > self.confidence_threshold
-        boxes = np.column_stack((x1, y1, x2, y2))[mask]
-        confidences = confidences[mask]
-        class_ids = class_ids[mask]
-        
-        # Apply NMS (Non-Maximum Suppression)
-        indices = cv2.dnn.NMSBoxes(
-            boxes.tolist(), 
-            confidences.tolist(), 
-            self.confidence_threshold, 
-            0.45
-        )
-        
-        if len(indices) > 0:
-            indices = indices.flatten()
-            boxes = boxes[indices]
-            confidences = confidences[indices]
-            class_ids = class_ids[indices]
-        
-        return boxes, confidences, class_ids
+    def get_package_directory(self):
+        """Find the package directory reliably regardless of installation method"""
+        # Method 1: Use __file__ (works when installed)
+        try:
+            return os.path.dirname(os.path.abspath(__file__))
+        except:
+            pass
+            
+        # Method 2: Use ament_index (ROS 2 standard way)
+        try:
+            from ament_index_python.packages import get_package_share_directory
+            return get_package_share_directory('bottle_detection')
+        except:
+            pass
+            
+        # Method 3: Fallback to current directory (for development)
+        return os.path.dirname(os.path.abspath(sys.argv[0]))
 
     def image_callback(self, msg):
         try:
@@ -404,52 +346,56 @@ class BottleDetector(Node):
                 
             # Convert ROS Image message to OpenCV image
             cv_image = self.bridge.imgmsg_to_cv2(msg, "bgr8")
-            orig_h, orig_w = cv_image.shape[:2]
             
-            # Preprocess image
-            input_tensor, orig_shape, pad_info = self.preprocess(cv_image)
+            # Run ONNX detection
+            detections, inference_time = self.detector.detect(cv_image)
             
-            # Run inference
-            start_time = time.time()
-            outputs = self.session.run(self.output_names, {self.input_name: input_tensor})
-            inference_time = time.time() - start_time
+            # Update FPS calculation
+            self.frame_count += 1
+            self.inference_times.append(inference_time)
+            if current_time - self.last_fps_update > self.fps_update_interval:
+                avg_inference = sum(self.inference_times) / len(self.inference_times)
+                fps = self.frame_count / (current_time - self.last_fps_update)
+                self.get_logger().info(
+                    f'Performance: {fps:.1f} FPS, '
+                    f'Inference: {avg_inference*1000:.1f} ms'
+                )
+                self.frame_count = 0
+                self.inference_times = []
+                self.last_fps_update = current_time
             
-            # Postprocess results
-            boxes, confidences, class_ids = self.postprocess(outputs, orig_shape, pad_info)
-            
-            # Create copies for visualization
+            # Create copies for different visualizations
             display_img = cv_image.copy()
             debug_img = cv_image.copy()
             
-            bottle_count = 0
+            bottle_count = len(detections)
             bottle_confidences = []
             bottle_boxes = []
             
             # Process detections
-            for i in range(len(boxes)):
-                if class_ids[i] == self.bottle_class_id:
-                    bottle_count += 1
-                    
-                    x1, y1, x2, y2 = boxes[i]
-                    conf = confidences[i]
-                    
-                    # Store for database
-                    bottle_confidences.append(conf)
-                    bottle_boxes.append((x1, y1, x2, y2))
-                    
-                    # Draw bounding box
-                    cv2.rectangle(display_img, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-                    label = f'Bottle: {conf:.2f}'
-                    cv2.putText(display_img, label, (int(x1), int(y1)-10), 
-                              cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
-                    
-                    # For debug image
-                    cv2.rectangle(debug_img, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-                    details = f'Bottle ID:{self.bottle_class_id} Conf:{conf:.2f} ({inference_time*1000:.1f}ms)'
-                    cv2.putText(debug_img, details, (int(x1), int(y1)-10), 
-                              cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 1)
+            for detection in detections:
+                confidence = detection['confidence']
+                x1, y1, x2, y2 = detection['bbox']
+                
+                # Store for database
+                bottle_confidences.append(confidence)
+                bottle_boxes.append((x1, y1, x2, y2))
+                
+                # Draw bounding box (green for bottles)
+                cv2.rectangle(display_img, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
+                
+                # Add label with confidence
+                label = f'Bottle: {confidence:.2f}'
+                cv2.putText(display_img, label, (int(x1), int(y1)-10), 
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+                
+                # For debug image, add more details
+                cv2.rectangle(debug_img, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
+                details = f'Bottle ID:{detection["class_id"]} Conf:{confidence:.2f}'
+                cv2.putText(debug_img, details, (int(x1), int(y1)-10), 
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 1)
             
-            # Log to database if needed
+            # Only log if we detected bottles or if it's been a while
             if bottle_count > 0 or (current_time - self.last_detection_time > 5.0):
                 self.last_detection_time = current_time
                 
@@ -488,7 +434,7 @@ class BottleDetector(Node):
                 # Log results
                 if bottle_count > 0:
                     self.get_logger().info(
-                        f'Detected {bottle_count} bottle(s) in {inference_time*1000:.1f}ms. '
+                        f'Detected {bottle_count} bottle(s). '
                         f'Conf: min={min_conf:.2f}, max={max_conf:.2f}, avg={avg_conf:.2f}. '
                         f'Saved to DB (ID: {detection_id})'
                     )
@@ -511,7 +457,7 @@ class BottleDetector(Node):
             self.get_logger().error(f'Error processing image: {str(e)}')
 
     def check_db_status(self):
-        """Periodically check database status"""
+        """Periodically check database status and log recent entries"""
         try:
             recent = self.db.get_recent_detections(3)
             if recent:

@@ -1,16 +1,13 @@
 Metadata-Version: 2.4
 Name: bottle_detection
 Version: 0.0.0
-Summary: ROS 2 node for bottle detection using YOLOv8
+Summary: ROS 2 node for bottle detection using ONNX
 Maintainer: user
 Maintainer-email: user@example.com
 License: Apache-2.0
 Requires-Dist: setuptools
-Provides-Extra: test
-Requires-Dist: pytest; extra == "test"
 Dynamic: license
 Dynamic: maintainer
 Dynamic: maintainer-email
-Dynamic: provides-extra
 Dynamic: requires-dist
 Dynamic: summary
